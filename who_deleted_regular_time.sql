@@ -15,4 +15,4 @@ WHERE
                                                     AND
                                                         trt.teacher_id = 1867030 /* Введи teacher_id */
                                                     AND
-                                                        trt.start_at LIKE  '2018-09-26%' /* Введи дату урока ГГГГ-ММ-ДД */
+                                                        trt.start_at LIKE  '2018-09-26%' /* Введи дату начала урока ГГГГ-ММ-ДД */

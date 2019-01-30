@@ -22,9 +22,9 @@ SELECT
       FROM skyeng_timetable.class 
       WHERE 
 
-                                                                          student_id  =     457248 
+                                                                          student_id  =     457248 /* Введи student_id */
                                                                           and 
-                                                                          start_at    LIKE  '2019-01-08%'
+                                                                          start_at    LIKE  '2019-01-08%' /* Введи дату начала урока ГГГГ-ММ-ДД */
 
     ) c 
       LEFT JOIN skyeng_timetable.action_log al ON c.removed_at = al.created_at
