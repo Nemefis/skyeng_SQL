@@ -13,6 +13,6 @@ LEFT JOIN
 WHERE
     tst.type="unavailable" 
                                                     AND
-                                                        tst.teacher_id=1867030
+                                                        tst.teacher_id = 1867030 /* Введи teacher_id */
                                                     AND
-                                                        tst.start_at LIKE  '2018-09-26%'
+                                                        tst.start_at LIKE  '2018-09-26%' /* Введи дату урока ГГГГ-ММ-ДД */
