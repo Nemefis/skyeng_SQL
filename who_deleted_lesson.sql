@@ -2,6 +2,8 @@
     C - Таблица Class
     CS - Таблица Class Status
     AL - Таблица Action Log
+
+    Если class.removed_at = NULL, то колонки таблицы Action Log будут заполнены значением NULL, иначе, колонки таблицы Class Status NULL
 */
 
 SELECT 
