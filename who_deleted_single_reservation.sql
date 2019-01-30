@@ -1,5 +1,10 @@
+/* 
+    TST - Таблица Teacher Single Time
+    AL - Таблица Action Log
+*/
+
 SELECT
-    tst.teacher_id, tst.start_at, tst.removed_at, tst.type,
+    tst.teacher_id TST_teacher_id, tst.start_at TST_start_at, tst.removed_at TST_removed_at, tst.type TST_type
     CASE
       WHEN tst.removed_at is NOT NULL THEN al.created_at
     END AS AL_created_at, 

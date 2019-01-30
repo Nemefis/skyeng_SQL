@@ -1,3 +1,9 @@
+/* 
+    C - Таблица Class
+    CS - Таблица Class Status
+    AL - Таблица Action Log
+*/
+
 SELECT 
   c.student_id, c.teacher_id, c.start_at, c.class_status_id, c.removed_at, 
   al.created_at AL_created_at, al.action_type AL_action_type, al.created_by_user_id AL_created_by_user_id, 
